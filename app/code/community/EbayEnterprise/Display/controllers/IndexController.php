@@ -1,5 +1,21 @@
 <?php
 /**
+ * Copyright (c) 2014 eBay Enterprise, Inc.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the eBay Enterprise
+ * Magento Extensions End User License Agreement
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.ebayenterprise.com/files/pdf/Magento_Connect_Extensions_EULA_050714.pdf
+ *
+ * @copyright   Copyright (c) 2014 eBay Enterprise, Inc. (http://www.ebayenterprise.com/)
+ * @license     http://www.ebayenterprise.com/files/pdf/Magento_Connect_Extensions_EULA_050714.pdf  eBay Enterprise Magento Extensions End User License Agreement
+ *
+ */
+
+/**
  * There is no index action for this controller. You must use 'retrieve?id=' to retrieve
  * an existing feed. If we decide later we want to create feeds upon request via this
  * controller, just add another action.
@@ -36,8 +52,7 @@ class EbayEnterprise_Display_IndexController extends Mage_Core_Controller_Front_
 	{
 		$this->getResponse()
 			->setHeader('Content-Type', 'text/csv')
-			->appendBody($contents)
-			->sendResponse();
+			->appendBody($contents);
 	}
 	/**
 	 * Send not found.
@@ -45,7 +60,6 @@ class EbayEnterprise_Display_IndexController extends Mage_Core_Controller_Front_
 	protected function _sendNotFound()
 	{
 		$this->getResponse()
-			->setRawHeader('HTTP/1.1, 404')
-			->sendResponse();
+			->setRawHeader('HTTP/1.1, 404');
 	}
 }

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2014 eBay Enterprise, Inc.
+
+  NOTICE OF LICENSE
+
+  This source file is subject to the eBay Enterprise
+  Magento Extensions End User License Agreement
+  that is bundled with this package in the file LICENSE.md.
+  It is also available through the world-wide-web at this URL:
+  http://www.ebayenterprise.com/files/pdf/Magento_Connect_Extensions_EULA_050714.pdf
+
+  @copyright   Copyright (c) 2014 eBay Enterprise, Inc. (http://www.ebayenterprise.com/)
+  @license     http://www.ebayenterprise.com/files/pdf/Magento_Connect_Extensions_EULA_050714.pdf  eBay Enterprise Magento Extensions End User License Agreement
+
+-->
 <config>
 	<tabs>
 		<ebayenterprise translate="label" module="eems_display">
@@ -66,6 +81,17 @@
 							<show_in_store>1</show_in_store>
 							<depends><enabled>1</enabled></depends>
 						</product_feed_url>
+						<product_feed_buffer translate="label">
+							<label>Product Feed Buffer Size</label>
+							<comment><![CDATA[Maximum number of products in memory at a time while creating the feed.]]></comment>
+							<sort_order>500</sort_order>
+							<validate>validate-digits</validate>
+							<frontend_type>text</frontend_type>
+							<show_in_default>1</show_in_default>
+							<show_in_website>0</show_in_website>
+							<show_in_store>0</show_in_store>
+							<depends><enabled>1</enabled></depends>
+						</product_feed_buffer>
 					</fields>
 				</eems_display>
 			</groups>
