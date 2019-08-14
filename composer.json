@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/eBay_Enterprise_Display_Extension",
     "type": "magento-module",
-    "license": "eBay-Enterprise-Magento-Extensions-End-User-License-Agreement",
+    "license": "OSL",
     "homepage": "",
-    "description": "Implements tracking on your site & creates product feed for eBay Enterprise Display & Product Retargeting ads.",
+    "description": "eBay Enterprise Display Extension.",
     "authors": [
     {
         "name": "Michael A. Smith",
