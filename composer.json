@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/eBay_Enterprise_Display_Extension",
+    "name": "OpenMageModuleFostering\/eBay_Enterprise_Display_Extension",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "eBay Enterprise Display Extension.",
     "authors": [
-    {
-        "name": "Michael A. Smith",
-        "email": "msmith3@ebay.com"
-    }
-],
+        {
+            "name": "Michael A. Smith",
+            "email": "msmith3@ebay.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
