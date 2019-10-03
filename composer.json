@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/eBay_Enterprise_Display_Extension",
+    "name": "openmage-module-fostering\/ebay_enterprise_display_extension",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "eBay Enterprise Display Extension.",
     "authors": [
